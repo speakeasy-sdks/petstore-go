@@ -22,7 +22,7 @@ import(
 )
 
 func main() {
-    s := test.New()
+    s := Test.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
@@ -65,11 +65,11 @@ import(
 )
 
 func main() {
-    s := test.New()
+    s := Test.New()
 
     ctx := context.Background()
     res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{
-        Limit: test.Int(548814),
+        Limit: Test.Int(548814),
     })
     if err != nil {
         log.Fatal(err)
@@ -111,7 +111,7 @@ import(
 )
 
 func main() {
-    s := test.New()
+    s := Test.New()
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{

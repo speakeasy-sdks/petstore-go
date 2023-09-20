@@ -11,7 +11,7 @@ import(
 )
 
 func main() {
-    s := test.New()
+    s := Test.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
