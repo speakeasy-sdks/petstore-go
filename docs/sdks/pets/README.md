@@ -18,11 +18,11 @@ package main
 import(
 	"context"
 	"log"
-	"Test"
+	test "Test"
 )
 
 func main() {
-    s := Test.New()
+    s := test.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
@@ -60,16 +60,16 @@ package main
 import(
 	"context"
 	"log"
-	"Test"
+	test "Test"
 	"Test/pkg/models/operations"
 )
 
 func main() {
-    s := Test.New()
+    s := test.New()
 
     ctx := context.Background()
     res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{
-        Limit: Test.Int(548814),
+        Limit: test.Int(548814),
     })
     if err != nil {
         log.Fatal(err)
@@ -106,12 +106,12 @@ package main
 import(
 	"context"
 	"log"
-	"Test"
+	test "Test"
 	"Test/pkg/models/operations"
 )
 
 func main() {
-    s := Test.New()
+    s := test.New()
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{

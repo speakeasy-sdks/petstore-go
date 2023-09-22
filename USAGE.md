@@ -7,11 +7,11 @@ package main
 import(
 	"context"
 	"log"
-	"Test"
+	test "Test"
 )
 
 func main() {
-    s := Test.New()
+    s := test.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
