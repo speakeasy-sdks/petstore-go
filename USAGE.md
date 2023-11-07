@@ -5,7 +5,7 @@
 package main
 
 import (
-	test "Test"
+	test "Test/v2"
 	"context"
 	"log"
 )

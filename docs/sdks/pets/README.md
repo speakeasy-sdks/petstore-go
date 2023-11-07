@@ -1,5 +1,5 @@
 # Pets
-(*Pets*)
+(*.Pets*)
 
 ### Available Operations
 
@@ -19,7 +19,7 @@ package main
 import(
 	"context"
 	"log"
-	test "Test"
+	test "Test/v2"
 )
 
 func main() {
@@ -61,8 +61,8 @@ package main
 import(
 	"context"
 	"log"
-	test "Test"
-	"Test/pkg/models/operations"
+	test "Test/v2"
+	"Test/v2/pkg/models/operations"
 )
 
 func main() {
@@ -105,8 +105,8 @@ package main
 import(
 	"context"
 	"log"
-	test "Test"
-	"Test/pkg/models/operations"
+	test "Test/v2"
+	"Test/v2/pkg/models/operations"
 )
 
 func main() {

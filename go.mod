@@ -1,4 +1,4 @@
-module Test
+module Test/v2
 
 go 1.14
 

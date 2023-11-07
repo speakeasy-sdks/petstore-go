@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"Test/pkg/models/shared"
+	"Test/v2/pkg/models/shared"
 	"net/http"
 )
 
