@@ -17,9 +17,10 @@ Create a pet
 package main
 
 import(
+	test "Test/v2"
 	"context"
 	"log"
-	test "Test/v2"
+	"net/http"
 )
 
 func main() {
@@ -61,10 +62,10 @@ List all pets
 package main
 
 import(
-	"context"
-	"log"
 	test "Test/v2"
+	"context"
 	"Test/v2/pkg/models/operations"
+	"log"
 )
 
 func main() {
@@ -107,10 +108,10 @@ Info for a specific pet
 package main
 
 import(
-	"context"
-	"log"
 	test "Test/v2"
+	"context"
 	"Test/v2/pkg/models/operations"
+	"log"
 )
 
 func main() {

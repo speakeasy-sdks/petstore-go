@@ -1,6 +1,4 @@
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
@@ -8,6 +6,7 @@ import (
 	test "Test/v2"
 	"context"
 	"log"
+	"net/http"
 )
 
 func main() {
