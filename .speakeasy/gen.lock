@@ -4,7 +4,7 @@ management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.234.3
+  generationVersion: 2.237.2
   releaseVersion: 2.1.2
   configChecksum: 76cb61c3c7372f9c9022663e723366bc
   repoURL: https://github.com/speakeasy-sdks/petstore-go.git
@@ -20,7 +20,6 @@ generatedFiles:
   - test.go
   - go.mod
   - go.sum
-  - tests/helpers.go
   - pkg/models/sdkerrors/sdkerror.go
   - pkg/types/bigint.go
   - pkg/types/date.go
