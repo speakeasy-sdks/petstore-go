@@ -17,7 +17,7 @@ go get github.com/speakeasy-sdks/petstore-go
 package main
 
 import (
-	test "Test/v2"
+	test "Test/v3"
 	"context"
 	"log"
 	"net/http"
@@ -79,8 +79,8 @@ Handling errors in this SDK should largely match your expectations.  All operati
 package main
 
 import (
-	test "Test/v2"
-	"Test/v2/pkg/models/sdkerrors"
+	test "Test/v3"
+	"Test/v3/pkg/models/sdkerrors"
 	"context"
 	"errors"
 	"log"
@@ -123,7 +123,7 @@ You can override the default server globally using the `WithServerIndex` option 
 package main
 
 import (
-	test "Test/v2"
+	test "Test/v3"
 	"context"
 	"log"
 	"net/http"
@@ -155,7 +155,7 @@ The default server can also be overridden globally using the `WithServerURL` opt
 package main
 
 import (
-	test "Test/v2"
+	test "Test/v3"
 	"context"
 	"log"
 	"net/http"

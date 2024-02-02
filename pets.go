@@ -3,10 +3,10 @@
 package test
 
 import (
-	"Test/v2/pkg/models/operations"
-	"Test/v2/pkg/models/sdkerrors"
-	"Test/v2/pkg/models/shared"
-	"Test/v2/pkg/utils"
+	"Test/v3/pkg/models/operations"
+	"Test/v3/pkg/models/sdkerrors"
+	"Test/v3/pkg/models/shared"
+	"Test/v3/pkg/utils"
 	"bytes"
 	"context"
 	"fmt"

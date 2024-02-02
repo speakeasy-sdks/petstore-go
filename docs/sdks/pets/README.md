@@ -17,7 +17,7 @@ Create a pet
 package main
 
 import(
-	test "Test/v2"
+	test "Test/v3"
 	"context"
 	"log"
 	"net/http"
@@ -62,9 +62,9 @@ List all pets
 package main
 
 import(
-	test "Test/v2"
+	test "Test/v3"
 	"context"
-	"Test/v2/pkg/models/operations"
+	"Test/v3/pkg/models/operations"
 	"log"
 )
 
@@ -108,9 +108,9 @@ Info for a specific pet
 package main
 
 import(
-	test "Test/v2"
+	test "Test/v3"
 	"context"
-	"Test/v2/pkg/models/operations"
+	"Test/v3/pkg/models/operations"
 	"log"
 )
 

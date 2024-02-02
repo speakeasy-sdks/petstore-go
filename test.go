@@ -3,7 +3,7 @@
 package test
 
 import (
-	"Test/v2/pkg/utils"
+	"Test/v3/pkg/utils"
 	"fmt"
 	"net/http"
 	"time"
@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *Test {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "2.1.3",
-			GenVersion:        "2.237.3",
-			UserAgent:         "speakeasy-sdk/go 2.1.3 2.237.3 1.0.0 Test",
+			SDKVersion:        "3.0.0",
+			GenVersion:        "2.248.1",
+			UserAgent:         "speakeasy-sdk/go 3.0.0 2.248.1 1.0.0 Test",
 		},
 	}
 	for _, opt := range opts {

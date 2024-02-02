@@ -1,4 +1,4 @@
-module Test/v2
+module Test/v3
 
 go 1.20
 
